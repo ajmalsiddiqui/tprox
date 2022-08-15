@@ -1,0 +1,12 @@
+[package]
+name = "tprox"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tprox-server"
+path = "src/bin/server.rs"
+
+[[bin]]
+name = "tprox"
+path = "src/bin/client.rs"
